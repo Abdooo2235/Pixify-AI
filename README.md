@@ -1,9 +1,7 @@
 # Pixify-AI
 
 [![Build](https://img.shields.io/github/actions/workflow/status/Abdooo2235/Pixify-AI/ci.yml?branch=main)](https://github.com/Abdooo2235/Pixify-AI/actions)
-
 [![License](https://img.shields.io/github/license/Abdooo2235/Pixify-AI)](LICENSE)
-
 [![Contributors](https://img.shields.io/github/contributors/Abdooo2235/Pixify-AI)](https://github.com/Abdooo2235/Pixify-AI/graphs/contributors)
 
 Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly enhance and upscale your images using advanced machine learning, all from a beautiful and intuitive interface.
