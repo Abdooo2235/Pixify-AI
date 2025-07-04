@@ -8,6 +8,11 @@ Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly e
 
 ---
 
+✨ Demo
+<!-- If you have a live demo, add it here. Example: --> <!-- [Live Demo](https://pixify-ai-demo.vercel.app) -->
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
