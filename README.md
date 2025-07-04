@@ -6,7 +6,7 @@
 
 Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly enhance and upscale your images using advanced machine learning, all from a beautiful and intuitive interface.
 
-# ✨ Demo
+## Demo ✨
 This is [Live Demo](https://pixify-ai-cm6o.vercel.app/)
 
 ---
@@ -19,10 +19,7 @@ This is [Live Demo](https://pixify-ai-cm6o.vercel.app/)
 - [Running Locally](#running-locally)
 - [Building for Production](#building-for-production)
 - [Serving Production Build](#serving-production-build)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact & Support](#contact--support)
 
 ---
@@ -105,35 +102,6 @@ The static files will be output to the `dist/` directory.
    ```
 
    - The server will serve the production build over HTTPS (default: [https://localhost:3000](https://localhost:3000)).
-
----
-
-## Environment Variables
-
-Create a `.env` file in the project root to override default settings. Example:
-
-```env
-PORT=3000
-VITE_API_URL=https://api.example.com
-NODE_ENV=production
-```
-
-- `VITE_*` variables are exposed to the frontend via Vite.
-- See `.env.example` for more options (if provided).
-
----
-
-## Deployment
-
-### Vercel / Netlify
-
-- Deploy the `dist/` folder as a static site.
-- For API/backend, deploy the Express server separately (e.g., on Render, Railway, or your own VPS).
-
-### Custom Server
-
-- Serve the `dist/` folder with Express (see above) or any static file server.
-- Ensure HTTPS is configured for production.
 
 ---
 
