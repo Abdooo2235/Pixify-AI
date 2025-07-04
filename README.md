@@ -1,2 +1,177 @@
 # Pixify-AI
-AI Image Enhancer &amp; Upscaler 
+
+[![Build](https://img.shields.io/github/actions/workflow/status/Abdooo2235/Pixify-AI/ci.yml?branch=main)](https://github.com/Abdooo2235/Pixify-AI/actions)
+[![License](https://img.shields.io/github/license/Abdooo2235/Pixify-AI)](LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/Abdooo2235/Pixify-AI)](https://github.com/Abdooo2235/Pixify-AI/graphs/contributors)
+
+Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly enhance and upscale your images using advanced machine learning, all from a beautiful and intuitive interface.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running Locally](#running-locally)
+- [Building for Production](#building-for-production)
+- [Serving Production Build](#serving-production-build)
+- [Environment Variables](#environment-variables)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact & Support](#contact--support)
+
+---
+
+## Features
+
+- 🚀 **AI Image Upscaling:** Enhance and upscale images with state-of-the-art AI models.
+- 🖼️ **Batch Processing:** Upload and process multiple images at once.
+- 🔒 **Secure & Private:** All images are processed securely and deleted after enhancement.
+- ⚡ **Fast Processing:** Optimized backend for quick results.
+- 📊 **Admin Dashboard:** Manage users, monitor processing, and configure system settings.
+- 💳 **Flexible Pricing:** Multiple subscription plans for individuals and businesses.
+- 📱 **Responsive UI:** Beautiful, mobile-friendly interface built with React and Tailwind CSS.
+- 🔌 **API Access:** Integrate Pixify-AI into your own apps (Professional/Enterprise plans).
+- 🌐 **Easy Deployment:** Ready for Vercel, Netlify, or custom servers.
+
+---
+
+## Screenshots
+
+> _Replace these with your own screenshots or demo GIFs._
+
+![Landing Page](docs/screenshots/landing-page.png)
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+![Image Upscaling Demo](docs/screenshots/upscaling-demo.gif)
+
+---
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Git](https://git-scm.com/)
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Abdooo2235/Pixify-AI.git
+   cd Pixify-AI
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+---
+
+## Running Locally
+
+### Development Mode
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+- The app will be available at [http://localhost:5173](http://localhost:5173) by default.
+
+---
+
+## Building for Production
+
+Build the optimized production bundle:
+
+```bash
+npm run build
+```
+
+The static files will be output to the `dist/` directory.
+
+---
+
+## Serving Production Build
+
+### With Express and HTTPS
+
+1. **Ensure you have SSL certificates** (`pixify-ai.local.pem` and `pixify-ai.local-key.pem` in the project root).
+
+2. **Start the Express server:**
+
+   ```bash
+   npm run serve
+   ```
+
+   - The server will serve the production build over HTTPS (default: [https://localhost:3000](https://localhost:3000)).
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the project root to override default settings. Example:
+
+```env
+PORT=3000
+VITE_API_URL=https://api.example.com
+NODE_ENV=production
+```
+
+- `VITE_*` variables are exposed to the frontend via Vite.
+- See `.env.example` for more options (if provided).
+
+---
+
+## Deployment
+
+### Vercel / Netlify
+
+- Deploy the `dist/` folder as a static site.
+- For API/backend, deploy the Express server separately (e.g., on Render, Railway, or your own VPS).
+
+### Custom Server
+
+- Serve the `dist/` folder with Express (see above) or any static file server.
+- Ensure HTTPS is configured for production.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to your fork: `git push origin feature/your-feature`
+5. Open a [pull request](https://github.com/Abdooo2235/Pixify-AI/pulls)
+
+Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md) if available.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact & Support
+
+- **GitHub Issues:** [Report bugs or request features](https://github.com/Abdooo2235/Pixify-AI/issues)
+- **Author:** [Abdooo2235](https://github.com/Abdooo2235)
+- **Email:** _your-email@example.com_ (replace with your contact)
+- **Twitter:** [@Abdooo2235](https://twitter.com/Abdooo2235) _(if available)_
+
+---
+
+_Thank you for using Pixify-AI!_
