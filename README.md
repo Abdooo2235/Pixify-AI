@@ -8,10 +8,14 @@ Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly e
 
 ---
 
+✨ Demo
+<!-- If you have a live demo, add it here. Example: --> <!-- [Live Demo](https://pixify-ai-demo.vercel.app) -->
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Locally](#running-locally)
@@ -36,16 +40,6 @@ Pixify-AI is a modern, AI-powered image upscaler web application. Effortlessly e
 - 📱 **Responsive UI:** Beautiful, mobile-friendly interface built with React and Tailwind CSS.
 - 🔌 **API Access:** Integrate Pixify-AI into your own apps (Professional/Enterprise plans).
 - 🌐 **Easy Deployment:** Ready for Vercel, Netlify, or custom servers.
-
----
-
-## Screenshots
-
-> _Replace these with your own screenshots or demo GIFs._
-
-![Landing Page](docs/screenshots/landing-page.png)
-![Admin Dashboard](docs/screenshots/admin-dashboard.png)
-![Image Upscaling Demo](docs/screenshots/upscaling-demo.gif)
 
 ---
 
@@ -159,18 +153,11 @@ Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](C
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contact & Support
 
 - **GitHub Issues:** [Report bugs or request features](https://github.com/Abdooo2235/Pixify-AI/issues)
 - **Author:** [Abdooo2235](https://github.com/Abdooo2235)
-- **Email:** _your-email@example.com_ (replace with your contact)
-- **Twitter:** [@Abdooo2235](https://twitter.com/Abdooo2235) _(if available)_
+- **Email:** abdalrhmantheiv15@gmail.com
 
 ---
 
